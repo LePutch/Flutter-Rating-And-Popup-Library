@@ -157,13 +157,13 @@ const StarRating(
     }
 
     .image {
-      width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+      width: 50px;
       height: auto;
     }
 
     .arrow {
-      font-size: 24px; /* Ajustez la taille de la flèche selon vos besoins */
-      margin: 0 10px; /* Ajustez la marge autour de la flèche selon vos besoins */
+      font-size: 24px; 
+      margin: 0 10px; 
     }
   </style>
 </head>

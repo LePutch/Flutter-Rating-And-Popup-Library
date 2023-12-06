@@ -58,7 +58,7 @@ class CombinedApp extends StatelessWidget {
                   context,
                   title: "Popup 2",
                   titleColor: const Color.fromARGB(255, 158, 162, 213),
-                  content: "This is the second popup with a timer! ",
+                  content: "This is the second popup with a timer!",
                   backgroundColor: const Color.fromARGB(255, 12, 97, 123),
                   textColor: const Color.fromARGB(255, 255, 255, 255),
                   onButtonPressed: () {
@@ -69,7 +69,7 @@ class CombinedApp extends StatelessWidget {
                   closeButtonColor: const Color.fromARGB(255, 54, 114, 244),
                   closeButtonTextColor:
                       const Color.fromARGB(255, 255, 252, 252),
-                  timerDuration: const Duration(seconds: 30),
+                  timerDuration: const Duration(seconds: 3),
                   countdownColor: Colors.white70,
                   showTimerIcon: true,
                 );
@@ -99,7 +99,7 @@ class CombinedApp extends StatelessWidget {
             const SectionTitle("Star Rating Examples"),
             const StarRating(
               starCount: 5,
-              rating: 0,
+              rating: 2,
               selectedFillColor: Colors.amber,
               borderColor: Colors.black,
               size: 40.0,
@@ -161,7 +161,7 @@ class CombinedApp extends StatelessWidget {
               onPressed: () {
                 CustomPopup.show(
                   context,
-                  title: "Star Rating Popup",
+                  title: "Star rating in a popup",
                   titleColor: Colors.red,
                   content: "Please rate us !",
                   backgroundColor: Colors.white,
@@ -191,7 +191,7 @@ class CombinedApp extends StatelessWidget {
                   ),
                 );
               },
-              child: const Text('Show Star Rating Popup'),
+              child: const Text('Show Star Rating Popup !'),
             ),
             ElevatedButton(
               onPressed: () {
