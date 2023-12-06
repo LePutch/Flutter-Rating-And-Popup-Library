@@ -193,38 +193,8 @@ ElevatedButton(
 ```
 ##### *COMBINED - Popup to rating popup*
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .container {
-      display: flex;
-      align-items: center;
-    }
+![Image 1](/assets/doc/advanced_popup_1.png) ➤ ![Image 2](/assets/doc/advanced_popup_1.png)
 
-    .image {
-      width: 50px; 
-      height: auto;
-    }
-
-    .arrow {
-      font-size: 24px; 
-      margin: 0 10px; 
-    }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  <img class="image" src="/assets/doc/advanced_popup_1.png" alt="Image 1">
-  <div class="arrow">➤</div>
-  <img class="image" src="/assets/doc/advanced_popup_2.png" alt="Image 2">
-</div>
-
-</body>
-</html>
 
 Fully customizable popup with timer and close button. When pressing the close button, the popup will disappear and a new one will appear with a rating system.
 
