@@ -193,7 +193,7 @@ ElevatedButton(
 ```
 ##### *COMBINED - Popup to rating popup*
 
-![Image 1](/assets/doc/advanced_popup_1.png) ➤ ![Image 2](/assets/doc/advanced_popup_1.png)
+![Image 1](/assets/doc/advanced_popup_1.png) ➤ ![Image 2](/assets/doc/advanced_popup_2.png)
 
 
 Fully customizable popup with timer and close button. When pressing the close button, the popup will disappear and a new one will appear with a rating system.
